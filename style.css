@@ -1,0 +1,33 @@
+body {
+  background-color: #fcbf49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  font-size: 4rem;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.heart {
+  color: red;
+  font-weight: bold;
+}
+
+.text {
+  color: purple;
+  font-weight: bold;
+}
+
+.line {
+  display: inline-block;
+  width: 5px;
+  height: 60px;
+  background-color: white;
+}
